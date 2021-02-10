@@ -1,0 +1,195 @@
+* { 
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    background: #fff url(../img/fundo.png) repeat-x;
+    
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#container {
+    width: 750px;
+    margin: 0 auto;
+}
+
+
+#topo {
+    height: 150px;
+    background: url(../img/detalhe-topo.png) no-repeat right top;
+    padding-top: 25px;
+}
+
+
+.logo {
+    width: 152px;
+    height: 66px;
+    background: url(../img/logo.png) no-repeat center;
+    text-indent: -3000px;
+}
+
+
+/*barra de navegação*/
+
+#topo #menu-superior ul {
+    margin-top: 30px;
+    background: #b10333;
+    float: left;
+}
+
+#topo #menu-superior ul li {
+    float: left;
+}
+
+#topo #menu-superior ul li a {
+    text-decoration: none;
+    color: #fff;
+    background: url(../img/divisor.png) no-repeat left ;
+    font-size: 0.9em;
+    padding: 0.5em 1.5em;
+    line-height: 2.1em;
+    display: block;
+}
+
+#topo #menu-superior .primeiro a {
+    background: none;
+}
+
+#topo ul a:hover {
+    color: #69001d;
+    
+}
+
+body.home #topo #menu-superior #navegacao a#home, 
+body.brasil #topo #menu-superior #navegacao a#brasil,
+body.ciencia #topo #menu-superior #navegacao a#ciencia,
+body.economia #topo #menu-superior #navegacao a#economia, 
+body.galeria #topo #menu-superior #navegacao a#galeria,
+body.internacional #topo #menu-superior #navegacao a#internacional, 
+body.saude #topo #menu-superior #navegacao a#saude {
+
+    color: #fff;
+    background: #de003e;
+    cursor: text;
+}
+
+/* Configura layout de três colunas */
+
+#conteudo {
+    margin-top: 50px;
+    background: #f5f5f5;
+}
+
+#lateral { /*não irá ser alterado*/
+    width: 180px;
+    float: left;
+    margin: 0 0 20px -750px;
+}
+
+#primario {
+    width: 270px;
+    background: blue;
+    float: left;
+    margin: 0 0 20px 195px;
+}
+
+#duas-colunas #primario {
+    width: 555px;
+}
+
+#uma-coluna #primario {
+    width: 750px;
+    margin-bottom: 20px;
+    margin-left: 0px;
+}
+
+#secundario {
+    width: 270px;
+    float: left;
+    margin: 0 0 20px 15px;
+}
+
+/*Caixa*/
+
+.caixa {
+    margin: 10px 0;
+    padding: 5px;
+    background: url(../img/fundo-caixa.png);
+}
+
+h2 {
+    font-size: 1.1em;
+    background: #294c71;
+    color: #fff;
+    padding: 5px;
+}
+
+.caixa-conteudo {
+    background: #fff;
+    margin-top: 5px;
+    padding: 5px;
+}
+
+/*Formatação Menu Lateral*/
+#lateral ul a {
+    font-size: 0.9em;
+    padding: 3px;
+    display: block;
+    line-height: 30px;
+    color: #000;
+    text-decoration: none;
+    border-bottom: 1px solid #f3f3f3;
+}
+
+#lateral ul a:hover {
+    color: #a1a1a1;
+    background: #f9f9f9 url(../img/marcador.png) no-repeat left center;
+    padding-left: 20px;
+
+}
+
+/*Formatação Formulários*/
+
+label {
+    display: block;
+    cursor: pointer;
+}
+
+input {
+    padding: 5px;
+    width: 125px ;
+    font-size: 0.9em;
+    background-color: #fff;
+    margin-top: 10px;
+}
+
+input.submit {
+    width: 80px;
+    color: #fff;
+    background-color: #b10333;
+    border: 2px solid #870529;
+    margin-top: 10px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+/*Rodape*/
+
+#container-rodape {
+    clear: both;
+    background: #294c71;
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+#rodape {
+
+}
