@@ -38,9 +38,21 @@ h3 {
 }
 
 .link-reportagem {
+    
+
+}
+a.link-reportagem {
     font-size: 13px;
+   color: #fff;
+   background-color: #b10333;
+   padding: 4px;
+   text-decoration: none;
 }
 
+a.link-reportagem:hover {
+   background-color:  #de003e;
+   color: #fff;
+}
 
 #container {
     width: 750px;
@@ -211,7 +223,7 @@ input.submit {
 .caixa-conteudo #lista-noticias li a p {
     padding-top: 0px;
     padding-bottom: 3px;
-    font-size: 0.6em;
+    font-size: 0.7em;
 
 }
 
@@ -227,7 +239,7 @@ input.submit {
     padding: 2px;
     padding-bottom: 3px;
     border-bottom: 1px solid #ccc;
-    height: 65px;
+    height: 60px;
     
 }
 
@@ -241,6 +253,11 @@ input.submit {
 #lista-noticias li a {
    text-decoration: none;
    
+}
+
+#lista-noticias li:hover {
+    background-color: #eee;
+    cursor: pointer;
 }
 
 
