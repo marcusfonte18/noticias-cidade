@@ -15,6 +15,33 @@ ul {
     list-style: none;
 }
 
+img {
+    padding-top: 10px;
+    border-bottom: 2px solid #dfdfdf;
+}
+
+p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 13px;
+}
+
+h3 {
+    background-color: #b10333;
+    color: #fff;
+    font-size: 13px;
+    padding: 3px ;
+}
+
+.caixa-conteudo img {
+    width: 100%;
+}
+
+.link-reportagem {
+    font-size: 13px;
+}
+
+
 #container {
     width: 750px;
     margin: 0 auto;
@@ -90,12 +117,11 @@ body.saude #topo #menu-superior #navegacao a#saude {
 #lateral { /*não irá ser alterado*/
     width: 180px;
     float: left;
-    margin: 0 0 20px -750px;
+    margin: 0 0 20px -750px; /*usado para colocar ele colocado no lado direito*/
 }
 
 #primario {
     width: 270px;
-    background: blue;
     float: left;
     margin: 0 0 20px 195px;
 }
@@ -145,7 +171,7 @@ h2 {
     line-height: 30px;
     color: #000;
     text-decoration: none;
-    border-bottom: 1px solid #f3f3f3;
+    border-bottom: 1px solid rgba(41,76,113, 30%);
 }
 
 #lateral ul a:hover {
@@ -179,6 +205,45 @@ input.submit {
     padding: 5px;
     cursor: pointer;
 }
+
+/*Formatação Lista Notícias*/
+
+.caixa-conteudo #lista-noticias li a p {
+    padding-top: 0px;
+    padding-bottom: 3px;
+    font-size: 0.6em;
+
+}
+
+.caixa-conteudo #lista-noticias li a h3 {
+    background: none;
+    color: #294c71;
+    padding-top: 2px;
+    padding-bottom: 1px;
+    font-size: 0.8em;
+}
+
+#lista-noticias li {
+    padding: 2px;
+    padding-bottom: 3px;
+    border-bottom: 1px solid #ccc;
+    height: 65px;
+    
+}
+
+#lista-noticias li a img {
+    width: 30%;
+    float: left;
+    margin: 5px;
+    padding-top: 1px;
+}
+
+#lista-noticias li a {
+   text-decoration: none;
+   
+}
+
+
 
 /*Rodape*/
 
