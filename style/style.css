@@ -62,8 +62,9 @@ a.link-reportagem:hover {
 
 #topo {
     height: 150px;
-    background: url(../img/detalhe-topo.png) no-repeat right top;
+    background: url(../img/detalhe-topo.png) no-repeat right center;
     padding-top: 25px;
+    border: 2px solid red;
 }
 
 
@@ -260,6 +261,12 @@ input.submit {
     cursor: pointer;
 }
 
+/*Cofigurando a página quando estiver com duas colunas*/
+
+#duas-colunas.nova-legislacao h3, 
+#duas-colunas.entrevista-felipe-silva h3 {
+    font-size: 20px;
+}
 
 
 /*Rodape*/
