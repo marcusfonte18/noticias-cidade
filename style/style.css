@@ -37,10 +37,7 @@ h3 {
     width: 100%;
 }
 
-.link-reportagem {
-    
 
-}
 a.link-reportagem {
     font-size: 13px;
    color: #fff;
@@ -62,9 +59,8 @@ a.link-reportagem:hover {
 
 #topo {
     height: 150px;
-    background: url(../img/detalhe-topo.png) no-repeat right center;
+    background: url(../img/detalhe-topo.png) no-repeat right top;
     padding-top: 25px;
-    border: 2px solid red;
 }
 
 
@@ -96,6 +92,7 @@ a.link-reportagem:hover {
     padding: 0.5em 1.5em;
     line-height: 2.1em;
     display: block;
+    
 }
 
 #topo #menu-superior .primeiro a {
@@ -253,6 +250,7 @@ input.submit {
 
 #lista-noticias li a {
    text-decoration: none;
+   color: black;
    
 }
 
@@ -277,8 +275,4 @@ input.submit {
     padding: 20px;
     color: #fff;
     text-align: center;
-}
-
-#rodape {
-
 }
